@@ -12,5 +12,5 @@ func main() {
 	})
 
 	fmt.Println("Server starting on port 8080...")
-	log.Fatal(http.ListenAndServe(":8060", nil))
+	log.Fatal(http.ListenAndServe(":8080", nil))
 }
