@@ -2,5 +2,5 @@ services:
   app:
     build: .
     ports:
-      - "8099:8080"
+      - "8099:8060"
     container_name: go-app
